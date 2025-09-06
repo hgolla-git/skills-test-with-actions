@@ -9,7 +9,7 @@ on:
   workflow_dispatch:
   push:
     branches:
-      - ci
+      - dependabot/github_actions/actions/checkout-5
     paths:
       - .github/workflows/ci.yml
 
