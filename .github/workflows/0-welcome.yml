@@ -9,7 +9,7 @@ on:
   workflow_dispatch:
   push:
     branches:
-      - main
+      - dependabot/github_actions/actions/checkout-5
 
 # Reference: https://docs.github.com/actions/security-guides/automatic-token-authentication
 permissions:
