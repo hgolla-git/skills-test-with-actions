@@ -19,7 +19,7 @@ permissions:
 
 jobs:
   deploy:
-    uses: hgolla-git/my-app/.github/workflows/deploy.yaml
+    uses: hgolla-git/my-app/.github/workflows/deploy.yaml@main
   # Get the current step to only run the main job when the learner is on the same step.
   get_current_step:
     name: Check current step number
